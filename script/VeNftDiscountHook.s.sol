@@ -5,6 +5,7 @@ import {Script, console} from "forge-std/Script.sol";
 import {VeNftDiscountHook} from "../src/pool-cl/VeNftDiscountHook.sol";
 import {CLPoolManager} from "@pancakeswap/v4-core/src/pool-cl/CLPoolManager.sol";
 import {PoolKey} from "@pancakeswap/v4-core/src/types/PoolKey.sol";
+import {PoolId} from "@pancakeswap/v4-core/src/types/PoolId.sol";
 import {Constants} from "@pancakeswap/v4-core/test/pool-cl/helpers/Constants.sol";
 import {Currency} from "@pancakeswap/v4-core/src/types/Currency.sol";
 import {LPFeeLibrary} from "@pancakeswap/v4-core/src/libraries/LPFeeLibrary.sol";
