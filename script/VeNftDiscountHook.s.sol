@@ -34,7 +34,8 @@ contract MyScript is Script {
         CLPoolManager poolManager = CLPoolManager(poolManagerAddress);
 
         // 2. get address of sepolia Erc721 contract
-        address nftContractAddress = 0xD0bB5823D31C9544f60611D1A8F5434349d20025;
+        address nftContractAddress = 0x3C7A65BaE49791fca7F92B2dbF37bBDFbFDD2224; // brian knows og contract address on sepolia
+        //0xD0bB5823D31C9544f60611D1A8F5434349d20025
 
         // 3. deploy VeNftDiscountHook.sol
         hook = new VeNftDiscountHook(poolManager, nftContractAddress);
